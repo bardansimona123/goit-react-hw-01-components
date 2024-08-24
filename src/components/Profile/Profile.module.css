@@ -1,0 +1,41 @@
+.profile {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+  }
+  .description {
+    padding: 30px 20px;
+  }
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .tag, .location {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+  }
+  .label {
+    font-size: 14px;
+    color: #999;
+  }
+  .quantity {
+    font-size: 16px;
+    font-weight: bold;
+  }
