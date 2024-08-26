@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Profile.module.css'; // Importă CSS Modules
+import styles from './Profile.module.css'; 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles.profile}>

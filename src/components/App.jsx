@@ -1,8 +1,13 @@
 import React from 'react';
-import Profile from './Profile/Profile'; // Importă componenta din folderul Profile
-import user from './Profile/user.json'; // Importă datele din user.json
+import Profile from './Profile/Profile'; 
+import user from './Profile/user.json'; 
+import Statistics from './Statistics/Statistics';
+import data from './Statistics/data.json';
+import FriendList from './FriendList/FriendList';
+import friends from './FriendList/friends.json'
 const App = () => {
   return (
+    <>
     <div>
       <Profile
         username={user.username}
@@ -12,6 +17,13 @@ const App = () => {
         stats={user.stats}
       />
     </div>
+    <div>
+      <Statistics title="Upload Stats" stats={data} />
+    </div>
+    <div>
+      <FriendList friends={friends} />
+    </div>
+    </>
   );
 };
 export default App;

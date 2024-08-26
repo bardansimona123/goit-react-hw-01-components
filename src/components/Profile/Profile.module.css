@@ -5,6 +5,7 @@
     overflow: hidden;
     text-align: center;
     background-color: #fff;
+    margin: auto;
   }
   .description {
     padding: 30px 20px;
@@ -28,14 +29,34 @@
     display: flex;
     justify-content: space-around;
     background-color: #f3f3f3;
-    padding: 15px 0;
+    padding: 0px 0;
     border-top: 1px solid #ddd;
+    margin-bottom: 0px;
+    list-style-type: none;
   }
   .label {
     font-size: 14px;
     color: #999;
+    padding-right: 15px;
+  }
+
+  .label:last-of-type {
+    padding-right: 0;
   }
   .quantity {
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-left: -17px;
+  }
+
+  .stats li {
+    border-right: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .stats li:last-child {
+    border-right: none;
   }
